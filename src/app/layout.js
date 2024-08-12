@@ -1,10 +1,10 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/navbar";
 import Boostrapclient from "./components/boostrapclient";
 import Footer from "./components/footer";
 import "./css/material-kit.css?v=3.0.4"
+import 'animate.css';
 
 export const metadata = {
   title: "Maprang | Bot",
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <script src="https://kit.fontawesome.com/f92a39a75d.js" crossOrigin="anonymous"></script>
 
       </head>
-      <body>
+      <body style={{backgroundColor:"#e3f3ff"}}>
         {children}
         <Navbar />
         <Footer></Footer>

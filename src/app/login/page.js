@@ -11,8 +11,8 @@ export default function Login() {
 
     return (
         <>
-            <div className="d-flex justify-content-center align-items-center min-vh-100 bg-light">
-                <div className="card p-4 shadow-sm" style={{ width: '35rem' }}>
+            <div className="d-flex justify-content-center align-items-center min-vh-100 px-4 ">
+                <div className="card p-4 shadow-md animate__animated animate__fadeInUp" style={{ width: '35rem' }}>
                     <h2 className="card-title text-center mb-4">เข้าสู่ระบบ</h2>
                     <form>
                         <div className="mb-3">
@@ -27,7 +27,7 @@ export default function Login() {
                                 className="position-absolute end-0 translate-middle-y me-3"
                                 style={{ cursor: 'pointer', top: '55px' }}
                             >
-                                <i className={`fa-solid ${showPassword ? 'fa-eye-slash' : 'fa-eye'}`}></i>
+                                <i className={`fa-solid ${showPassword ? 'fa-eye' : 'fa-eye-slash'}`}></i>
                             </span>
                         </div>
                         <button type="submit" className="btn btn-info w-100">เข้าสู่ระบบ</button>

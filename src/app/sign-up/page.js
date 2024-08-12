@@ -34,8 +34,8 @@ export default function SignUp() {
 
     return (
         <>
-            <div className="d-flex justify-content-center align-items-center min-vh-100 bg-light">
-                <div className="card p-4 shadow-sm" style={{ width: '35rem' }}>
+            <div className="d-flex justify-content-center align-items-center min-vh-100 px-4">
+                <div className="card my-8 p-4 shadow-md animate__animated animate__fadeInDown" style={{ width: '35rem' }}>
                     <h2 className="card-title text-center mb-4">สมัครสมาชิก</h2>
                     <form onSubmit={handleSubmit}>
                         <div className="mb-3">
@@ -80,7 +80,7 @@ export default function SignUp() {
                                 className="position-absolute end-0 translate-middle-y me-3"
                                 style={{ cursor: 'pointer', top: '55px' }}
                             >
-                                <i className={`fa-solid ${showPassword ? 'fa-eye-slash' : 'fa-eye'}`}></i>
+                                <i className={`fa-solid ${showPassword ? 'fa-eye' : 'fa-eye-slash'}`}></i>
                             </span>
                         </div>
                         <div className="mb-3 position-relative">
@@ -101,7 +101,7 @@ export default function SignUp() {
                                 className="position-absolute end-0 translate-middle-y me-3"
                                 style={{ cursor: 'pointer', top: '55px' }}
                             >
-                                <i className={`fa-solid ${showPassword ? 'fa-eye-slash' : 'fa-eye'}`}></i>
+                                <i className={`fa-solid ${showPassword ? 'fa-eye' : 'fa-eye-slash'}`}></i>
                             </span>
                         </div>
                         {error && <div className="text-danger mb-3 text-center">{error}</div>}

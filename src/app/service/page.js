@@ -9,8 +9,10 @@ export default function Service() {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 mx-auto">
-                                <div className="mt-n8 mt-md-n9 text-center">
-                                    <img className="avatar avatar-xxl shadow-xl position-relative z-index-2" src="../MaprangProfile.png" alt="bruce" loading="lazy" />
+                                <div className="mt-n8 mt-md-n9 text-center animate__animated animate__zoomIn">
+                                    <div className="avatar-border">
+                                        <img className="avatar heart-beat avatar-xxl shadow-xl position-relative z-index-2 animate__animated animate__pulse animate__infinite" src="../MaprangProfile.png" alt="bruce" />
+                                    </div>
                                 </div>
                                 <div className="row py-5">
                                     <div className="col-lg-7 col-md-7 z-index-2 position-relative px-md-2 px-sm-5 mx-auto">
@@ -20,12 +22,11 @@ export default function Service() {
                                                 <button type="button" className="btn btn-sm btn-outline-info text-nowrap mb-0">Follow</button>
                                             </div>
                                         </div>
-
                                         <p className="text-lg mb-0">
                                             บอทฟังเพลงที่มีทุกบ้านเกิดใหม่เป็นวีแล้วค่ะ
                                             [Debut Stream] 3 สิงหาคม 2024 เวลา 20:00
                                             Youtube. : @Maprang_Astray
-                                            website: astraycorp.com 
+                                            website: astraycorp.com
                                         </p>
                                     </div>
                                 </div>
@@ -40,9 +41,9 @@ export default function Service() {
                                 <h3 className="mb-5">ตัวอย่าง บริการของเรา</h3>
                             </div>
                         </div>
-                        <div className="row">
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="card card-plain">
+                        <div className="row animate__animated animate__bounceIn">
+                            <div className="col-lg-3 col-sm-6 animate__animated animate__fadeIn">
+                                <div className="card card-plain card-hover-effect">
                                     <div className="card-header p-0 position-relative">
                                         <a className="d-block blur-shadow-image">
                                             <img src="../service1.jpg" alt="img-blur-shadow" className="img-fluid shadow border-radius-lg" loading="lazy" />
@@ -58,8 +59,8 @@ export default function Service() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="card card-plain">
+                            <div className="col-lg-3 col-sm-6 animate__animated animate__fadeIn">
+                                <div className="card card-plain card-hover-effect">
                                     <div className="card-header p-0 position-relative">
                                         <a className="d-block blur-shadow-image">
                                             <img src="../service2.jpg" alt="img-blur-shadow" className="img-fluid shadow border-radius-lg" loading="lazy" />
@@ -75,8 +76,8 @@ export default function Service() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="card card-plain">
+                            <div className="col-lg-3 col-sm-6 animate__animated animate__fadeIn">
+                                <div className="card card-plain card-hover-effect">
                                     <div className="card-header p-0 position-relative">
                                         <a className="d-block blur-shadow-image">
                                             <img src="../service3.jpg" alt="img-blur-shadow" className="img-fluid shadow border-radius-lg" loading="lazy" />
@@ -92,8 +93,8 @@ export default function Service() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-12 col-12">
-                                <div className="card card-blog card-background cursor-pointer">
+                            <div className="col-lg-3 col-md-12 col-12 animate__animated animate__fadeIn">
+                                <div className="card card-blog card-background cursor-pointer card-hover-effect">
                                     <div className="full-background" style={{ backgroundImage: 'url("../assets/img/maprang3.png")' }} loading="lazy" />
                                     <div className="card-body">
                                         <div className="content-left text-start my-auto py-4">
@@ -109,9 +110,7 @@ export default function Service() {
                         </div>
                     </div>
                 </section>
-                {/* END Blogs w/ 4 cards w/ image & text & link */}
             </div>
-
         </>
-    )
+    );
 }
