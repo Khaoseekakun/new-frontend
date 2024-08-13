@@ -57,7 +57,7 @@ export default function About() {
                                 <div className="card card-hover-effect">
                                     <div className="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                                         <a className="d-block blur-shadow-image">
-                                            <img src="/maprang.webp" alt="" className="img-fluid border-radius-lg" loading="lazy" />
+                                            <img src="/maprang.webp" alt="" className="img-fluid border-radius-lg col-12" loading="lazy" />
                                         </a>
                                     </div>
                                     <div className="card-body text-center">
