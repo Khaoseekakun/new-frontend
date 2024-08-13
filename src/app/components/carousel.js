@@ -34,7 +34,7 @@ export default function Carousel() {
 
     return (
         <header className="header-2">
-            <div id="Carousel" className={`page-header min-vh-75 relative ${animClass}`} style={{ backgroundImage: `url(${imageList[bgImage]})` }}>
+            <div id="Carousel" className={`page-header min-vh-75 relative ${animClass}`} style={{ backgroundImage: `url(${imageList[bgImage]})`, backgroundColor: "black" }}>
                 <span className="mask opacity-4" />
                 <div className="container">
                     <div className="row">
