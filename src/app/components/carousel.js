@@ -6,9 +6,9 @@ export default function Carousel() {
     const [animClass, setAnimClass] = useState('');
 
     const imageList = [
-        "/assets/img/maprang3.png",
-        "/assets/img/maprang1.jpg",
-        "/assets/img/maprang2.jpg"
+        "/assets/img/maprang3.webp",
+        "/assets/img/maprang1.webp",
+        "/assets/img/maprang2.webp"
     ];
 
     /**
