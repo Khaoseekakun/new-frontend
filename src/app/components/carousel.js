@@ -27,7 +27,7 @@ export default function Carousel() {
     useEffect(() => {
         const interval = setInterval(() => {
             checkImage(bgImage, 1, imageList.length);
-        }, 5000);
+        }, 8000);
 
         return () => clearInterval(interval); 
     }, [bgImage, imageList.length]);

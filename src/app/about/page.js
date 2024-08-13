@@ -39,7 +39,7 @@ export default function About() {
                                 <div className="row justify-content-start">
                                     <div className="col-md-12">
                                         <div className="info">
-                                            <h1 className='card-hover-effect'>Astray Entertainment</h1>
+                                            <h1 className='card-hover-effect' style={{textShadow : "0px 5px 5px #e5e5e5"}}>Astray Entertainment</h1>
                                             <p>{typedText1}</p>
                                         </div>
                                     </div>
@@ -47,7 +47,7 @@ export default function About() {
                                 <div className="row justify-content-start mt-4">
                                     <div className="col-md-12">
                                         <div className="info">
-                                            <h1 className='card-hover-effect'>Astray Game Studio</h1>
+                                            <h1 className='card-hover-effect' style={{textShadow : "0px 5px 5px #e5e5e5"}}>Astray Game Studio</h1>
                                             <p>{typedText2}</p>
                                         </div>
                                     </div>
@@ -62,7 +62,7 @@ export default function About() {
                                     </div>
                                     <div className="card-body text-center">
                                         <h5 className="font-weight-normal">
-                                            <a href="javascript:;">Maprang Vtuber</a>
+                                            <a href="https://www.youtube.com/@Maprang_Astray">Maprang Vtuber</a>
                                         </h5>
                                         <p className="mb-0">
                                             เตรียมพบกับ บอทดิสคอร์ดที่มีผู้ใช้งานกว่า 5 ล้านคน สู่ศิลปินสาวคนแรกของ แอสเทรย์ เอนเตอร์เทนเมนท์

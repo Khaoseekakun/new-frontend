@@ -51,7 +51,7 @@ export default function Service() {
                                     </div>
                                     <div className="card-body px-0">
                                         <h5>
-                                            <a href="javascript:;" className="text-dark font-weight-bold">ระบบจัดการห้องเสียงอัตโนมัติ</a>
+                                            <a href="#" className="text-dark font-weight-bold">ระบบจัดการห้องเสียงอัตโนมัติ</a>
                                         </h5>
                                         <p>
                                             ช่วยให้คุณใช้งานห้องเสียงได้อย่างมีประสิทธิ์ภาพ และสะดวกสบายมากขึ้น
@@ -68,7 +68,7 @@ export default function Service() {
                                     </div>
                                     <div className="card-body px-0">
                                         <h5>
-                                            <a href="javascript:;" className="text-dark font-weight-bold">ระบบเปิดเพลง</a>
+                                            <a href="#" className="text-dark font-weight-bold">ระบบเปิดเพลง</a>
                                         </h5>
                                         <p>
                                             ช่วยทำให้คุณสามารถฟังเพลงได้โดยที่ไม่มีโฆษณา และ สามารถแชร์เพลงของคุณให้กับเพื่อนๆได้อีกด้วย
@@ -85,7 +85,7 @@ export default function Service() {
                                     </div>
                                     <div className="card-body px-0">
                                         <h5>
-                                            <a href="javascript:;" className="text-dark font-weight-bold">ระบบยืนยันตัวตน</a>
+                                            <a href="#" className="text-dark font-weight-bold">ระบบยืนยันตัวตน</a>
                                         </h5>
                                         <p>
                                             ช่วยทำให้เซิร์ฟเวอร์ของคุณปลอดภัยยิ่งขึ้นโดยการคัดกรองสมาชิก ก่อนเข้าร่วมเซิร์ฟเวอร์

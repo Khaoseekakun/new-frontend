@@ -9,7 +9,7 @@ export default function Contact() {
                         <div className="col">
                             <div className="card box-shadow-xl overflow-hidden mb-5">
                                 <div className="row">
-                                    <div className="col-lg-5 position-relative bg-cover px-0 animate__animated animate__fadeInLeft" style={{ backgroundImage: 'url("../assets/img/maprang2.jpg")' }} loading="lazy">
+                                    <div className="col-lg-5 position-relative bg-cover px-0 animate__animated animate__fadeInLeft" style={{ backgroundImage: 'url("../assets/img/maprang2.webp")' }} loading="lazy">
                                         <div className="z-index-2 text-center d-flex h-100 w-100 d-flex m-auto justify-content-center">
                                             <div className="mask bg-gradient-dark opacity-8" />
                                             <div className="p-5 ps-sm-8 position-relative text-start my-auto z-index-2">
