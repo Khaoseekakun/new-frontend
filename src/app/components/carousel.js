@@ -18,10 +18,13 @@ export default function Carousel() {
      * @returns {number}
      */
     function checkImage(currentIndex, change, totalImages) {
-        setAnimClass(''); 
+        setAnimClass('animate__fadeOut');
         const newIndex = (currentIndex + change + totalImages) % totalImages;
-        setBg(newIndex);
-        setAnimClass('bg-slice'); 
+
+        setTimeout(() => {
+            setBg(newIndex);
+            setAnimClass('animate__fadeIn');
+        }, 500)
     }
 
     useEffect(() => {
@@ -29,12 +32,12 @@ export default function Carousel() {
             checkImage(bgImage, 1, imageList.length);
         }, 8000);
 
-        return () => clearInterval(interval); 
+        return () => clearInterval(interval);
     }, [bgImage, imageList.length]);
 
     return (
         <header className="header-2">
-            <div id="Carousel" className={`page-header min-vh-75 relative ${animClass}`} style={{ backgroundImage: `url(${imageList[bgImage]})`, backgroundColor: "black" }}>
+            <div id="Carousel" className={`page-header min-vh-75 relative animate__animated ${animClass}`} style={{ backgroundImage: `url(${imageList[bgImage]})` }}>
                 <span className="mask opacity-4" />
                 <div className="container">
                     <div className="row">
