@@ -70,11 +70,14 @@ export default function Navbar() {
                                     </Link>
                                 </li>
                                 <li className="nav-item mx-1 card-hover-effect">
+                                    <Link href={"https://invite.maprangbot.xyz"} className="btn col-sm-12 col-12 btn-outline-info" >เชิญบอท</Link>
+                                </li>
+                                {/* <li className="nav-item mx-1 card-hover-effect">
                                     <Link href={"/sign-up"} className="btn col-sm-12 col-12 btn-outline-info" onClick={handleLinkClick}>Sign-up</Link>
                                 </li>
                                 <li className="nav-item mx-1 card-hover-effect">
                                     <Link href={"/login"} className="btn col-sm-12 col-12 btn-info" onClick={handleLinkClick}>Login</Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
