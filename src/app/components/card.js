@@ -47,8 +47,8 @@ function useTypingCarousel(words, delay) {
 }
 
 export default function Card() {
-    const count1 = useCountTo(33100, 2000);
-    const count2 = useCountTo(4053668, 2000);
+    const count1 = useCountTo(34929, 2000);
+    const count2 = useCountTo(4256422, 2000);
     const count3 = useCountTo(18, 2000);
 
     const words = ["Astray Entertainment", "Creating Future", "Innovative Solutions"];
