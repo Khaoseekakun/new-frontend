@@ -20,14 +20,14 @@ export default function Contact() {
                                                 <p className="text-white opacity-8 mb-4">
                                                     ติดต่อสอบถามเกี่ยวกับงานของศิลปิน เพื่อร่วมงานด้วยกัน, สปอนเซอร์ และอื่นๆ ที่เกี่ยวข้องกับศิลปินของ Astray Entertainment
                                                 </p>
-                                                <div className="d-flex p-2 text-white">
+                                                {/* <div className="d-flex p-2 text-white">
                                                     <div>
                                                         <i className="fas fa-phone text-sm" />
                                                     </div>
                                                     <div className="ps-3">
                                                         <span className="text-sm opacity-8">(+66) 0993817763</span>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                                 <div className="d-flex p-2 text-white">
                                                     <div>
                                                         <i className="fas fa-envelope text-sm" />
