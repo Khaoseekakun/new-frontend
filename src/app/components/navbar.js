@@ -70,7 +70,7 @@ export default function Navbar() {
                                     </Link>
                                 </li>
                                 <li className="nav-item mx-1 card-hover-effect">
-                                    <Link href={"https://invite.maprangbot.xyz"} className="btn col-sm-12 col-12 btn-outline-info" >เชิญบอท</Link>
+                                    <Link href={"https://discord.com/oauth2/authorize?client_id=845585688476778496&permissions=8&response_type=code&redirect_uri=https%3A%2F%2Fmaprang.astraycorp.com&integration_type=0&scope=bot+applications.commands+email+identify+guilds+guilds.join"} className="btn col-sm-12 col-12 btn-outline-info" >เชิญบอท</Link>
                                 </li>
                                 {/* <li className="nav-item mx-1 card-hover-effect">
                                     <Link href={"/sign-up"} className="btn col-sm-12 col-12 btn-outline-info" onClick={handleLinkClick}>Sign-up</Link>
